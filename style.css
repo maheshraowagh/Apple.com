@@ -1,0 +1,504 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    font-family:  Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+.page1{
+    width: 100%;
+    height:85%;
+    background-color: #F5F5F7;
+    /* background-color: crimson; */
+}
+.nav{
+    width:100%;
+    height:50px;
+    background-color: #454545;
+    display:flex;
+   align-items: center;
+    justify-content: center;
+    gap:30px;
+    position:fixed;  
+}
+.nav .icon1{
+font-size: 20px;
+color: #fff;
+cursor:pointer;
+}
+
+.service{
+    display:flex;
+    cursor: pointer;
+    gap:32px;
+    font-size: 16px;
+    color:#a9a2a2;
+}
+.service h4:hover{
+    color:#fff
+}
+
+.service h4{
+    font-weight: 500;
+}
+.icon2{
+    color:#ffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icon3{
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.text{
+    padding-top: 40px;
+
+}
+.text h4{ 
+    text-align: center;
+    padding-top:15px ;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.text a{
+    text-decoration: none;
+    color:#0F6FCF;
+    cursor: pointer;
+
+}
+.text a:hover{
+    text-decoration:underline;
+    font-size: 16px;
+}
+
+.heading{
+    text-align: center;
+    padding-top:60px;
+}
+.head h1{
+font-size: 54px;
+font-weight: 600;
+color:#1f1f1f
+}
+.head h3{
+    padding-top:8px;
+    font-size: 29px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.head a{
+    font-size: 20px;
+    text-decoration: none;
+    padding:25px;
+    color:#0a88fd;
+    
+}
+.head a:hover{
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.mac{
+
+    width:57%;
+    height:61%;
+    margin:90px auto;
+    background-repeat: no-repeat;
+    background-image: url(images/maaaaack.jpg);
+   
+}
+
+
+.page2{
+    width:100%;
+    height:85%;
+    background-color: black; 
+}
+.heading2 {
+    text-align: center;
+    color:#fff;
+    padding-top:2.5%;
+}
+.heading2 h1{
+    font-size: 53px;
+}
+.heading2 h3{
+font-size: 26px;
+margin-bottom: 20px;
+}
+.heading2 a{
+    font-size: 20px;
+    text-decoration: none;
+    padding:0 20px 0 20px;
+    color:#2997FF;
+    cursor:pointer;
+}
+.heading2 a:hover{
+    text-decoration: underline;
+}
+.pro{
+    width:100%;
+    height:90%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.iphone{
+     text-align: center; 
+     width: 60%;
+     height:85.5%;
+     /* background-color: #cd1414; */
+     background-repeat: no-repeat;
+     /* background-image: url(images/iphone\ 14\ edit.png); */
+     /* object-fit: cover; */
+       background-image: url(https://www.apple.com/lae/iphone-14-pro/images/key-features/hero/hero__cj6i78tzkp8i_medium.jpg);   
+      background-size: cover; 
+      background-position: center;
+     margin: 0 auto;
+     
+    
+}
+
+
+.page3{
+    width:100%;
+    height:70%;
+ /* background-color: tomato;    */
+     
+    
+}
+
+.heading3 {
+    text-align: center;
+    color:#000;
+    padding-top:2.5%;
+      /* background-color: red;   */
+      margin-bottom: 15px;
+     /* padding-bottom: 20px; */
+}
+.heading3 h1{
+    font-size: 53px;
+    
+}
+.heading3 h3{
+font-size: 26px;
+margin-bottom: 20px;
+font-weight: 500;
+}
+.heading3 a{
+    font-size: 20px;
+    text-decoration: none;
+    padding:0 20px 0 20px;
+    color:#0385ff;
+    cursor:pointer;
+}
+.heading3 a:hover{
+    text-decoration: underline;
+}
+.mobiles{
+    width: 60%;
+    height:70%;
+    background-image: url(images/iphones\ 2\ new.png);
+     background-repeat: no-repeat;
+     zoom:1.2;
+    margin:0 auto;  
+   }
+/* .phone{
+width:40%;
+height:50%;
+background-color: yellow;
+margin:0 auto;
+
+/* background-size: cover; 
+} 
+
+*/
+/* .phones{
+    /* background-color: red; 
+    width: 100%;
+    height:540px;
+}
+
+ img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    position:absolute;
+     top:150% 
+
+} */ 
+
+.page4{
+    width:100%;
+    height:62vh;
+   
+     /* background-color: red;  */
+    display:flex; 
+     gap:10px; 
+}
+.baxsa1{
+    width:50%;
+    height:60vh;
+    padding: 0 10px;
+    /* background-color: rgb(32, 203, 69); */
+    
+   
+}
+
+.baxsa1 .words{
+    text-align: center;
+    width:100%;
+    height:40%;
+    /* background-color: rgb(242, 61, 61);  */
+    padding-top:40px;
+
+}
+.words h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.words h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.words a{
+    font-size: 18px;
+    text-decoration: none;
+    padding:0 20px 0 20px;
+    color:#0F6FCF;
+    cursor:pointer;
+}
+.baxsa1 .pics{
+    /* background-color: red; */
+    width: 60%;
+    height: 50%;
+    /* background-image: url(images/girl.jpg); */
+    background-image: url(images/girl\ and\ boy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0 auto;
+}
+
+
+.baxsa2{
+    width:50%;
+    height:60vh;
+    background-color: #F2F2F4;
+    padding: 0 10px;
+}
+    
+
+.words2{
+    text-align: center;
+    width:100%;
+    height:45%;
+
+    padding-top:50px;
+
+
+}
+.words2 h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.words2 h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.words2 a{
+    text-decoration: none;
+    color:#0385ff
+}
+.baxsa2 .pics2{
+   width:100%;
+   height:50%;
+ /* margin:0 auto; */
+ background: red;
+ background-image: url(images/walking.jpg);
+ background-position: center;
+ background-size: cover;
+
+   
+}
+
+.page5{
+    /* width:100vh;
+    height:80%; */
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+.container{
+    display:flex;
+    gap:10px; 
+    padding: 0 10px;
+   
+}
+.container2{
+    display:flex;
+    gap:10px; 
+    padding:0 10px;
+}
+
+.words3{
+    text-align: center;
+    width:100%;
+    height:45%;
+
+    padding-top:50px;
+
+
+}
+.baxsa3 .words3 i{
+    color: #fff;
+}
+.words3 h1{
+    font-size: 35px;
+   
+    color:#fff
+}
+.words3 h2{
+    color:#CC2127;
+    font-size: 15px;
+    /* word-spacing: 2px; */
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.words3 h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color:#fff
+}
+.words3 a{
+    font-size: 18px;
+    text-decoration: none;
+    padding:0 15px ;
+    color:#0F6FCF;
+    cursor:pointer;
+}
+.words3 img{
+    width:3%;
+   
+}
+.baxsa3{
+    
+    width:100%;
+    height:60vh;
+    background-color: rgba(128, 128, 128, 0.12);
+    background-position: center;
+    background-size: cover;
+    
+     background-image: url(images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_small_2x.jpg); 
+  
+}
+
+.baxsa4{
+    width:100%;
+    height:60vh;
+    background-color: rgba(207, 30, 30, 0.12);
+  background-image: url(images/promo_ipadpro_refresh__evi9utuixwuq_small_2x.jpg);
+  
+  background-position: center;
+  background-size: cover;
+}
+
+
+.baxsa5{
+    width:100%;
+    height:60vh;
+    background-color: rgba(128, 128, 128, 0.12);
+    background-image: url(images/iphone_tradein_promo__d5au3rkw5kuq_small_2x.jpg);
+  
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.baxsa6{
+    width:100%;
+    height:60vh;
+    background-color: rgba(170, 17, 17, 0.12);
+    background-image: url(images/promo_airpods_pro_avail__gaxggskofx6y_small_2x\ -\ Copy.jpg);
+  
+    background-position: top; 
+    background-size: cover;
+   
+}
+
+
+.page6{
+    width:100vw;
+    height:75vh;
+    /* background-color: lightgreen; */
+    display:flex;
+    align-items: center;
+   justify-content: center;
+   
+}
+
+.slider{
+    width:100vw;
+    height:70vh;
+    display:flex;
+    align-items: center;
+    overflow-x: auto;
+  gap:15px;
+    /* background-color: green; */
+}
+.slider::-webkit-scrollbar{
+    display: none;
+}
+.card {
+    flex-shrink: 0;
+    width:60vw;
+    height:100%;
+    overflow: hidden;
+}
+.card img{
+    height:100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: top;
+    
+}
+
+.footer{
+    width:100vw;
+    height:80vh;
+    background-color:#F5F5F7;
+    display: flex;
+    justify-content: center;
+}
+.contents{
+    width: 55vw;
+    height:100%;
+}
+.content{
+    width:55vw;
+    line-height: 20px;
+    /* height:30vh; */
+    /* background-color: rgba(134, 16, 251, 0.68); */
+}
+.content h4{
+    font-size: 13px;
+}
+.about{
+display: flex;
+/* background-color: greenyellow; */
+gap:60px
+}
+.part1 ul li  {
+list-style: none;
+line-height: 25px;
+}
+.part1 ul li a{
+   cursor: pointer;
+}
